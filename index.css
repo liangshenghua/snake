@@ -1,0 +1,67 @@
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+ 
+}
+.container{
+}
+.header {
+  height: 70px;
+  background: #4A752C;
+}
+.content{
+  background: #578A34;
+  width: 613px;
+  height: 547px;
+  display: flex;
+}
+.cell {
+  position: relative;
+}
+.cell-box {
+  position: relative;
+  margin: 26px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.item {
+  width: 33px;
+  height: 33px;
+}
+.item-odd {
+  background: #AAD751
+}
+.item-even {
+  background: #A2D149;
+}
+
+.snake-item {
+  background: #4775EA;
+  width: 33px;
+  display: inline-block;
+  height: 33px;
+  position: absolute;
+}
+
+.food {
+  position: absolute;
+  width: 33px;
+  height: 33px;
+  background: #E7471D;
+}
+.content-box {
+  position: absolute;
+  margin: 26px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+
+/* 33 * 15  52  */
