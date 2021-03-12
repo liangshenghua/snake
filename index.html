@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <title>Snake</title>
+</head>
+<body>
+  <div class="container">
+    按方向盘右或者下开始游戏， 上下左右可以控制方向
+    <!-- 头部信息 -->
+    <div class="header"></div>
+    <!-- 中部 -->
+    <div class="content">
+      <div class="cell">
+        <div class="cell-box" id="cell-box">
+          <div class="item item-odd"></div>
+          <div class="item item-even"></div>
+        </div>
+        <div class="content-box">
+          <div class="food" id="food"></div>
+          <div class="snake" id="snake">
+            <div class="snake-item"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./addCell.js"></script>
+  <script src="./index.js"></script>
+</body>
+</html>
